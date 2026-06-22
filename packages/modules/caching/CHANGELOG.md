@@ -1,5 +1,14 @@
 # @medusajs/caching
 
+## 2.16.1
+
+### Patch Changes
+
+- [#15747](https://github.com/medusajs/medusa/pull/15747) [`c97a2ecaf4d29d16a1a8541b07722163d5015160`](https://github.com/medusajs/medusa/commit/c97a2ecaf4d29d16a1a8541b07722163d5015160) Thanks [@imharjot](https://github.com/imharjot)! - fix(caching): invalidate list caches on entity update events
+
+- Updated dependencies []:
+  - @medusajs/framework@2.16.1
+
 ## 2.16.0
 
 ### Patch Changes

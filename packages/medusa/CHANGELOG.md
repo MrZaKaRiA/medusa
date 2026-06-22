@@ -1,5 +1,66 @@
 # Change Log
 
+## 2.16.1
+
+### Patch Changes
+
+- [#15776](https://github.com/medusajs/medusa/pull/15776) [`f2d563a56b5f70834e113998ad36bcab30824cf8`](https://github.com/medusajs/medusa/commit/f2d563a56b5f70834e113998ad36bcab30824cf8) Thanks [@shahednasser](https://github.com/shahednasser)! - fix(medusa): maintain ESLint config detection
+
+- Updated dependencies [[`c97a2ecaf4d29d16a1a8541b07722163d5015160`](https://github.com/medusajs/medusa/commit/c97a2ecaf4d29d16a1a8541b07722163d5015160), [`5770fe15c8b63407705cb96d0e77c6f7c76b5219`](https://github.com/medusajs/medusa/commit/5770fe15c8b63407705cb96d0e77c6f7c76b5219), [`2221e527701c7a47f243d808b0f4fe8c7f44f2f8`](https://github.com/medusajs/medusa/commit/2221e527701c7a47f243d808b0f4fe8c7f44f2f8), [`6617a612ef57a0fa1b5fdea72b10e78205af56e9`](https://github.com/medusajs/medusa/commit/6617a612ef57a0fa1b5fdea72b10e78205af56e9)]:
+  - @medusajs/caching@2.16.1
+  - @medusajs/core-flows@2.16.1
+  - @medusajs/file-s3@2.16.1
+  - @medusajs/order@2.16.1
+  - @medusajs/framework@2.16.1
+  - @medusajs/draft-order@2.16.1
+  - @medusajs/admin-bundler@2.16.1
+  - @medusajs/event-bus-redis@2.16.1
+  - @medusajs/analytics@2.16.1
+  - @medusajs/api-key@2.16.1
+  - @medusajs/auth@2.16.1
+  - @medusajs/cache-inmemory@2.16.1
+  - @medusajs/cache-redis@2.16.1
+  - @medusajs/cart@2.16.1
+  - @medusajs/currency@2.16.1
+  - @medusajs/customer@2.16.1
+  - @medusajs/event-bus-local@2.16.1
+  - @medusajs/file@2.16.1
+  - @medusajs/fulfillment@2.16.1
+  - @medusajs/index@2.16.1
+  - @medusajs/inventory@2.16.1
+  - @medusajs/link-modules@2.16.1
+  - @medusajs/locking@2.16.1
+  - @medusajs/notification@2.16.1
+  - @medusajs/payment@2.16.1
+  - @medusajs/pricing@2.16.1
+  - @medusajs/product@2.16.1
+  - @medusajs/promotion@2.16.1
+  - @medusajs/analytics-local@2.16.1
+  - @medusajs/analytics-posthog@2.16.1
+  - @medusajs/auth-emailpass@2.16.1
+  - @medusajs/auth-github@2.16.1
+  - @medusajs/auth-google@2.16.1
+  - @medusajs/caching-redis@2.16.1
+  - @medusajs/file-local@2.16.1
+  - @medusajs/fulfillment-manual@2.16.1
+  - @medusajs/locking-postgres@2.16.1
+  - @medusajs/locking-redis@2.16.1
+  - @medusajs/notification-local@2.16.1
+  - @medusajs/notification-sendgrid@2.16.1
+  - @medusajs/payment-stripe@2.16.1
+  - @medusajs/rbac@2.16.1
+  - @medusajs/region@2.16.1
+  - @medusajs/sales-channel@2.16.1
+  - @medusajs/settings@2.16.1
+  - @medusajs/stock-location@2.16.1
+  - @medusajs/store@2.16.1
+  - @medusajs/tax@2.16.1
+  - @medusajs/translation@2.16.1
+  - @medusajs/user@2.16.1
+  - @medusajs/workflow-engine-inmemory@2.16.1
+  - @medusajs/workflow-engine-redis@2.16.1
+  - @medusajs/telemetry@2.16.1
+
 ## 2.16.0
 
 ### Minor Changes

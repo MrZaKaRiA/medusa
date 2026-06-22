@@ -1,5 +1,29 @@
 # @medusajs/dashboard
 
+## 2.16.1
+
+### Patch Changes
+
+- [#15750](https://github.com/medusajs/medusa/pull/15750) [`213455d6c62aa005723c8d438c0cf2797b9c3743`](https://github.com/medusajs/medusa/commit/213455d6c62aa005723c8d438c0cf2797b9c3743) Thanks [@merkelis-p](https://github.com/merkelis-p)! - Fix Rules of Hooks violation in the admin sidebar `NavItem`. `useTranslation`
+  was called inside `items.map()` (suppressed with an
+  `eslint-disable react-hooks/rules-of-hooks`), so the number of hooks rendered by
+  `NavItem` varied with the sub-item list length and the dashboard crashed with
+  "Rendered more hooks than during the previous render" whenever the menu changed
+  at runtime. The mapped row is extracted into a `NavItemSubItem` component that
+  owns its own `useTranslation` call.
+
+- [#15751](https://github.com/medusajs/medusa/pull/15751) [`f266d9808a36a8e28da4d7781b5e46c4b52522ef`](https://github.com/medusajs/medusa/commit/f266d9808a36a8e28da4d7781b5e46c4b52522ef) Thanks [@merkelis-p](https://github.com/merkelis-p)! - Fix a Rules of Hooks violation in `UserLink`'s `By` component: `useUser` and
+  `useCustomer` were called after an early `return null` (suppressed with
+  `eslint-disable react-hooks/rules-of-hooks`), so the hook count could change
+  between renders of the same instance. The hooks now run unconditionally before
+  the early return — the existing `{ enabled }` flags already prevent fetching for
+  the branch that does not apply, so behaviour is unchanged.
+- Updated dependencies []:
+  - @medusajs/js-sdk@2.16.1
+  - @medusajs/admin-shared@2.16.1
+  - @medusajs/icons@2.16.1
+  - @medusajs/ui@4.1.17
+
 ## 2.16.0
 
 ### Patch Changes

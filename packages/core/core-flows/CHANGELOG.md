@@ -1,5 +1,14 @@
 # @medusajs/core-flows
 
+## 2.16.1
+
+### Patch Changes
+
+- [#15783](https://github.com/medusajs/medusa/pull/15783) [`5770fe15c8b63407705cb96d0e77c6f7c76b5219`](https://github.com/medusajs/medusa/commit/5770fe15c8b63407705cb96d0e77c6f7c76b5219) Thanks [@gaoflow](https://github.com/gaoflow)! - fix(core-flows): include order shipping method names in tax context
+
+- Updated dependencies []:
+  - @medusajs/framework@2.16.1
+
 ## 2.16.0
 
 ### Patch Changes
